@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <div id="shadow">
+                <div><a href="#section1" id="logo">WANDERLUST</a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="#section2">Book</a></li>
+                        <li><a href="#">Hướng dẫn</a></li>
+                        <li><a href="#section1">Home</a></li>
+                        <li><a href="#">Ưu Đãi</a></li>
+                        <li><a href="#">Đồ Lưu Niệm</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="child" id="section1">
+            
+            <div id="slogan">WANDERLUST</div>
+           <a href="#section2" class="svg"> <img src="left-arrow.svg" class="svg" id="arrow"></a>
+            <div id="social">
+                <a href="#"><img src="instagram.svg" class="svg"></a>
+                <a href="#"><img src="facebook.svg" class="svg"></a>
+                <a href="#"><img src="youtube.svg" class="svg"
+                    style="margin-top: 5px;"></a>
+            </div>
+        </div>
+
+        <div class="child" id="section2">
+            <div id="rect">
+                <a href="#" class="pic">
+                    <div class="paral" id="paral1">
+                        <p class="title">Bắc</p>
+                    </div>
+                </a>
+                <a href="#" class="pic" onclick="funtOpen()">
+                    <div class="paral" id="paral2">
+                        <p class="title">Trung</p>
+                    </div>
+                </a>
+                <a href="#" class="pic">
+                    <div class="paral" id="paral3">
+                        <p class="title">Nam</p>
+                    </div>
+                </a>
+            </div>
+            <div id="modal">
+                <div id="center">
+                    <div id="close" onclick="funtClose()">&times;</div>
+                    <div class="box">
+                        <button class="card" style="background-image: url(tinh/bình\ định.jpg);">
+                           <p>Bình Định</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/bình\ thuận.jpg);">
+                           <p>Bình Thuận</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/danang.jpg);">
+                           <p>Đà Nẵng</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/dak\ lak.jpg);">
+                           <p>Dak Lak</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/dak\ nông.jpg);">
+                           <p>Dak Nông</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/gia\ lai.jpg);">
+                           <p>Gia Lai</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/hà\ tĩnh.jpg);">
+                           <p>Hà Tĩnh</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/huế.jpg);">
+                           <p>Huế</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/khánh\ hòa.jpg);">
+                           <p>Khánh Hòa</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/kom\ tum.jpg);">
+                           <p>Kontum</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/lâm\ đồng.jpg);">
+                           <p>Lâm Đồng</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/nghệ\ an.jpg);">
+                           <p>Nghệ An</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/ninh\ thuận.jpg);">
+                           <p>Ninh Thuận</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/phú\ yên.jpg);">
+                           <p>Phú Yên</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/quảng\ bình.jpg);">
+                           <p>Quảng Bình</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/quảng\ nam.jpg);">
+                           <p>Quảng Nam</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/quangngai.jpg);">
+                           <p>Quảng Ngãi</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/quangtri.jpg);">
+                           <p>Quảng Trị</p>
+                        </button>
+                        <button class="card" style="background-image: url(tinh/thanh\ hóa.jpg);">
+                           <p>Thanh Hóa</p>
+                        </button>
+                     </div>
+                     <div class="box" id="box3">                        
+                        <div class="idcard"  onclick="funtSelect(this)">
+                            <img src="info/1.jpg" alt="">
+                            <div class="text">
+                                <p> Họ và Tên:<b> Trần Ánh Nguyệt</b> </p>
+                                <p style="margin-top: -50px">Năm sinh: 1998</p>
+                                <p style="margin-top: -100px">Kinh nghiệm: Từng hướng dẫn cho các khách nước ngoài, có hơn 2 năm kinh nghiệm trong ngành du lịch, hiểu biết sâu rộng về văn hóa tại các nước, update những nơi vui chơi nổi tiếng. Vui vẻ,  hoạt bát, luôn hoàn thành nhiệm vụ được giao
+                                <br> Ngoại ngữ: Thông thạo tiếng Trung</p>
+                            </div>
+                        </div>  
+                        <div class="idcard" onclick="funtSelect(this)">
+                            <img src="info/3.jpg" alt="">
+                            <div class="text">
+                                <p> Họ và Tên: <b> Lê Anh Thư</b> </p>
+                                <p style="margin-top: -50px">Năm sinh: 1989</p>
+                                <p style="margin-top: -100px">Kinh nghiệm: Đã có hơn 5 năm kinh nghiệm làm hướng dẫn viên du lịch nước ngoài, có hơn 21 lần hướng dẫn khách tổ chức camping. Nhanh nhẹn, hòa đồng, hoạt bát, có trách nhiệm với công việc, có khả năng làm MC, hướng dẫn chương trình sân khấu,....
+                                   <br> Ngoại ngữ: Thông thạo tiếng Anh, Nhật.</p>
+                            </div>
+                        </div>                        
+                        <div class="idcard" onclick="funtSelect(this)">
+                            <img src="info/5.png" alt="">
+                            <div class="text">
+                                <p> Họ và Tên: <b> Trương Thế Vinh</b> </p>
+                                <p style="margin-top: -50px">Năm sinh: 1990</p>
+                                <p style="margin-top: -100px">Kinh nghiệm: Có 9 năm kinh nghiệm dẫn khách du lịch trong các tour du lịch lớn, hơn 6 lần tổ chức các buổi camping, picnic cho khách du lịch. Có tinh thần trách nhiệm cao,  hòa đồng, vui vẻ.
+                                   <br> Ngoại ngữ: Thông thạo tiếng Anh, Pháp, Trung.</p>
+                            </div>
+                        </div>
+                        <div class="idcard" onclick="funtSelect(this)">
+                            <img src="info/2.jpg" alt="">
+                            <div class="text">
+                                <p> Họ và Tên: <b> Trần Anh Thư</b> </p>
+                                <p style="margin-top: -50px">Năm sinh: 1994</p>
+                                <p style="margin-top: -100px">Kinh nghiệm: Từng làm ở các công ty hướng dẫn viên lớn ở nước ngoài, có 7 năm kinh nghiệm trong ngành du lịch. Nhiệt tình, hoạt bát, có khả năng hát, kể chuyện, cập nhật tin tức, địa điểm vui chơi giải trí, đảm bảo an toàn cho khách.
+                                   <br> Ngoại ngữ: Thông thạo tiếng Anh, Hàn, Nhật</p>
+                            </div>
+                        </div>
+                        <div class="idcard" onclick="funtSelect(this)">
+                            <img src="info/4.png" alt="">
+                            <div class="text">
+                                <p> Họ và Tên:  <b> Vương Nhất Hoàng</b> </p>
+                                <p style="margin-top: -50px">Năm sinh: 1996</p>
+                                <p style="margin-top: -100px">Kinh nghiệm: Có hơn 3 năm kinh nghiệm làm hướng dẫn viên du lịch nước ngoài, từng làm ở công ty du lịch lớn. Nhiệt tình hoà đồng, luôn giải đáp mọi thắc mắc của khách hàng. Có khả năng làm MC, am hiểu văn hóa tại mỗi địa phương. 
+                                   <br> Ngoại ngữ: Tiếng Trung, Anh, Hàn, Nhật.</p>
+                            </div>
+                        </div>
+                         
+                    </div>
+                    <div class="box" id="box2">
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/CRAZY\ HOUSE.jpg);">
+                            <p>CRAZY HOUSE</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/ĐÈO\ PRENN.jpg);">
+                            <p>ĐÈO PRENN</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/ĐỒI\ CHÈ\ CẦU\ ĐẤT.jpg);">
+                            <p>ĐỒI CHÈ CẦU ĐẤT</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/ĐỒI\ ĐA\ PHÚ.jpg);">
+                            <p>ĐỒI ĐA PHÚ</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/HỒ\ BƠI\ KHÔNG\ NƯỚC.jpg);">
+                            <p>HỒ BƠI KHÔNG NƯỚC</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/HỒ\ TUYỀN\ LÂM.jpg);">
+                            <p>HỒ TUYỀN LÂM</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/KHINH\ ĐÔ\ ÁNH\ SÁNG.jpg);">
+                            <p>KINH ĐÔ ÁNH SÁNG</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/NÚI\ LANGBIANG.jpg);">
+                            <p>NÚI LANGBIANG</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/THIỀN\ VIỆN\ TRÚC\ LÂM.jpg);">
+                            <p>THIỀN VIỆN TRÚC LÂM</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/THUNG\ LŨNG\ TÌNH\ YÊU.jpg);">
+                            <p>THUNG LŨ TÌNH YÊU</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/THÁC\ CAM\ LY.jpg);">
+                            <p>THÁC CAM LY</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/THÁC\ DATANLA.jpg);">
+                            <p>THÁC DATANLA</p>
+                        </div>
+                        <div class="card"  onclick="funtSelect(this)" 
+                        style="background-image: url(lamdong/XQ\ Sử\ Quán.jpg);">
+                            <p>XQ Sử Quán</p>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="box" id="box4">
+                        <form>
+                        <p>Nhập thông tin của bạn</p>
+                        <input type="text" placeholder="Họ Tên" id="name">
+                        <label>Năm Sinh</label> <input type="date"  placeholder="Năm sinh">
+                        <input type="text" placeholder="Số Điện Thoại">
+                        <input type="text" placeholder="Email">
+                        <div class="time">
+                           <label style="font-size: 25px;">Ngày bắt đầu</label> <input type="date" class="date" placeholder="Năm sinh">
+                           <label style="font-size: 25px;">Ngày kết thúc</label> <input type="date" class="date" placeholder="Năm sinh">
+                        </div>
+                    </form>
+                    </div>
+                    
+                    <div id="submit">                        
+                    <a  onclick="funtBack()" id="back-btn">Back</a>
+                    <a href="#" onclick="funtNext()" id="next-btn">
+                        Next<i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a  onclick="funtNext2()" id="next2-btn">
+                        Next<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a  onclick="funtNext3()" id="next3-btn">
+                        Next<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a  onclick="funtBook()" id="book-btn">
+                        Book</a>
+                    </div>
+                </div>
+                
+                <div class="box" id="box5">
+                    <p> Book Thành Công!</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
